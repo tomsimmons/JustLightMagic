@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- From: file:/C:/Users/Madeline/AndroidStudioProjects/PhotoIntentActivity/app/src/main/res/layout/main.xml -->
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/btnIntend"
+        android:text="@string/btnIntend"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/btnIntendAnalyze"
+        android:text="@string/btnIntendAnalyze"/>
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/main_textview"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/imageView1"
+        android:visibility="visible"/>
+
+    <VideoView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/videoView1"
+        android:visibility="invisible"/>
+
+</LinearLayout>

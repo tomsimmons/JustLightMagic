@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PhotoIntentActivity!</string>
+    <string name="app_name">Just Light Magic!</string>
+    <string name="btnIntend">Take Picture</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">CameraSample</string>
+    <string name="btnIntendAnalyze">Analyze Emission Spectrum</string>
+    <string name="sunButton">Analyze Solar Spectrum</string>
+    <string name="textview"></string>
+</resources>
